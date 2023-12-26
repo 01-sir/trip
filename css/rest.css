@@ -1,0 +1,48 @@
+.restContainer .iconfont{
+    font-size: 40px;
+    color: #fff;
+    user-select: none;
+}
+.restContainer h1{
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    user-select: none;
+}
+
+.restContainer .restImg{
+    
+}
+.rest_ul{
+    background-color: #fff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.rest_ul li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+#typeImg{
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+/* 按钮样式 */
+#delte ,#rest{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 10pxs;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #0ea5e9;
+    color: #fff;
+}

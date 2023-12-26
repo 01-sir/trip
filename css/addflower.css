@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.submitMain{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#flowerName{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 10px;
+    color: #333;
+    padding: 0 8px;
+    border: 1px solid #10f091;
+}
+#type{
+    width: 100px;
+    height: 40px;
+    color: #333;
+}
+.typeClass{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pho{
+    margin-bottom: 20px;
+}
+.anthor{
+    margin-top: 20px;
+}
+.anthor>input{
+    width: 300px;
+    height: 40px;
+    padding:0 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.submit>input{
+    width: 80px;
+    height: 30px;
+    background-color: #0ea5e9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.submit{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.useTop{
+    width: 1000px;
+    margin: 0 auto;
+
+    /* border: 1px solid; */
+}
+ul li{
+    list-style: none;
+    width:960px;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #0ea5e9;
+    padding: 0 20px;
+    color: #333;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+ul li:hover{
+    background-color: aliceblue;
+}
+.use_ul{
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.use_ul li>a{
+    color: #1090f0;
+}
+#useTitle{
+    width: 100%;
+    text-align: center;
+}
+
+/* 前面的部分css样式 */
+.admincontainer{
+    width: 100vw;
+}
+.admincontainer .admin-top{
+    width: 100%;
+    height: 240px;
+    
+}
+.admincontainer .admin-top img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

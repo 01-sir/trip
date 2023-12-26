@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainReg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.mainReg .reg{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 540px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    padding: 20px;
+}
+.form-reg{
+    margin-top: 50px;
+}
+.usereg{
+    margin-bottom: 20px;
+}
+#input{
+    width: 290px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 5px;
+}
+#input:focus{
+    outline: 2px solid #0ea5e9;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to bottom,#f0fdff,#0ea5e9);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+#submit:active{
+    background-color: #0ea5e9;
+    box-shadow: 0 0 0 5px #fff, 0 0 0 10px #0ea5e9;
+}
+.login{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+}

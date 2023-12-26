@@ -1,0 +1,43 @@
+.admincontainer{
+    position: relative;
+    width: 100vw;
+    background-image: url(../images/root.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.coutGray{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    padding: 0 50px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+.coutGray .root{
+    margin-left: 60px;
+    display: flex;
+}
+.coutGray .root li{
+    list-style: none;
+    margin: 0 20px;
+}
+#loginout:hover{
+    color: #d42929cc;
+}
+
+.iframe{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0 ,.5);
+}

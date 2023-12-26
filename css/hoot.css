@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hootMain{
+    width: 100vw;
+}
+.hot_banner{
+    width: 100%;
+    height: 380px;
+}
+.hot_banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hot_black{
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,.5);;
+}
+.hot_content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hot_content .hot_left,.hot_right{
+    width: 700px;
+    margin: 40px 0;
+
+}
+.hot_content .hot_left h1,.hot_right h1{
+    color: #9f3d89;
+    margin:10px 0;
+}
+.hot_content .hot_left .photo,.hot_right .new{
+    color: #f06bd3;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #f06bd3;
+}
+.hot_left .hotImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.hotImg .hotItem{
+    width: 200px;
+
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.hot_left .hotImg #img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.hot_right .hot_news ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #f06bd3;
+
+}
+.hot_right .hot_news ul li span{
+    color: #f06bd3;
+}
+.hot_right .hot_news ul li #link{
+    flex: 1;
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 10px;
+}
+.hot_right{
+    overflow: hidden;
+}
+.hot_gray{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    background-color: #ffe9f9;
+}
+.hot_gray .gray-title{
+    width: 435px;
+    margin:0 auto;
+    text-align: center;
+    color: #9f3d89;
+    padding: 20px 0;
+}
+.hot_gray .gray-title p{
+    margin: 5px 0;
+}
+.hot_gray .gray-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hot_gray .gray-img .imgItem{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 0 10px #fff;
+}
+
+.hootMain .hotWark::before{
+    width: 100%;
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
